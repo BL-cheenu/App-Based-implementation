@@ -16,26 +16,26 @@ package com.bl.app.based.implementation;
 public class OopsBannerAppUC3 {
     private static String[] getOPattern() {
         String[] result = {
-                " *** ",
-                "*   *",
-                "*   *",
-                "*   *",
-                "*   *",
-                "*   *",
-                " *** "
+                "  ***  ",
+                "**   **",
+                "**   **",
+                "**   **",
+                "**   **",
+                "**   **",
+                "  ***  "
         };
         return result;
     }
 
     private static String[] getPPattern() {
         String[] result = {
-                "*****",
-                "*   *",
-                "*   *",
-                "*****",
-                "*    ",
-                "*    ",
-                "*    "
+                "******",
+                "**  **",
+                "**  **",
+                "******",
+                "**    ",
+                "**    ",
+                "**    "
         };
         return result;
     }
@@ -43,11 +43,11 @@ public class OopsBannerAppUC3 {
     private static String[] getSPattern() {
         String[] result = {
                 " ****",
-                "*    ",
-                "*    ",
-                " *** ",
-                "    *",
-                "    *",
+                "**    ",
+                "**    ",
+                " **** ",
+                "    **",
+                "    **",
                 "**** "
         };
         return result;
