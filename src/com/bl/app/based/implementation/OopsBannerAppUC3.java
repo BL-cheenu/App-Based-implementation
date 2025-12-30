@@ -15,15 +15,42 @@ package com.bl.app.based.implementation;
 
 public class OopsBannerAppUC3 {
     private static String[] getOPattern() {
-        return null;
+        String[] result = {
+                " *** ",
+                "*   *",
+                "*   *",
+                "*   *",
+                "*   *",
+                "*   *",
+                " *** "
+        };
+        return result;
     }
 
     private static String[] getPPattern() {
-        return null;
+        String[] result = {
+                "*****",
+                "*   *",
+                "*   *",
+                "*****",
+                "*    ",
+                "*    ",
+                "*    "
+        };
+        return result;
     }
 
     private static String[] getSPattern() {
-        return null;
+        String[] result = {
+                " ****",
+                "*    ",
+                "*    ",
+                " *** ",
+                "    *",
+                "    *",
+                "**** "
+        };
+        return result;
     }
 
     public static void main(String[] args) {
@@ -31,5 +58,9 @@ public class OopsBannerAppUC3 {
         String[] o2 = getOPattern();
         String[] p = getPPattern();
         String[] s = getSPattern();
+
+        for (int i = 0; i < o1.length; i++) {
+            System.out.println(o1[i] + "   " + o2[i] + "   " + p[i] + "   " + s[i]);
+        }
     }
 }
