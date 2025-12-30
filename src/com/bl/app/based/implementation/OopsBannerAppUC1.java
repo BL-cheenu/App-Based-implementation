@@ -7,7 +7,7 @@ package com.bl.app.based.implementation;
  * that displays the Object Oriented Programming System (OOPS)
  * acronym to the console.
  *
- * @author cheenu
+ * @author User
  * @version 1.0
  */
 public class OopsBannerAppUC1 {
