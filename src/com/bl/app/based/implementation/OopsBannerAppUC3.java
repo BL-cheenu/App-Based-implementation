@@ -1,7 +1,35 @@
 package com.bl.app.based.implementation;
 
-public class OopsBannerAppUC3 {
-    public static void main(String[] args) {
+/**
+ * OOPSBannerApp - OOPS Banner Application (Use Case 3)
+ * <p>
+ * This class extends User Story 2 to display the "OOPS" banner using a modular approach
+ * by implementing the Single Responsibility Principle (SRP) and Method Extraction.
+ *
+ * <p><b>Pattern:</b> String arrays representing ASCII art for letters O, O, P, and S are generated
+ * and combined horizontally to create the visual "OOPS" message.</p>
+ *
+ * @author User
+ * @version 3.0
+ */
 
+public class OopsBannerAppUC3 {
+    private static String[] getOPattern() {
+        return null;
+    }
+
+    private static String[] getPPattern() {
+        return null;
+    }
+
+    private static String[] getSPattern() {
+        return null;
+    }
+
+    public static void main(String[] args) {
+        String[] o1 = getOPattern();
+        String[] o2 = getOPattern();
+        String[] p = getPPattern();
+        String[] s = getSPattern();
     }
 }
